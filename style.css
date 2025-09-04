@@ -1,0 +1,9 @@
+body{
+    background-image:url(travel.webp) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ul li{
+    display: inline;
+    
+}
