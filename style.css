@@ -1,27 +1,34 @@
 .nav{
     
-    background-color: rgb(136, 66, 16);
+    background-image: url(bk25.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    
+    h2{
+        background-color: rgba(208, 205, 178, 0.5);
+        display: flex;
+        justify-content: space-between;
+        border-radius: 20px;
+        padding: 15px;
+      a{padding: 30px;
+        color: black;
+      }
+    }
+
         h1{
-            background-image: url(olai2.jpg);
-            background-repeat: no-repeat;
-            background-size: cover;
-            padding: 30px;
+            
+            
             margin-left: 45%;
             display: inline-block;
             border-radius: 10px;
-
+            font-size: 60px;
         }
         p{
-            background-image: url(olai.jpg);
-            background-repeat:no-repeat;
-            padding: 100px;
-            margin-left: 25%;
-            padding-left: 150px;
+        
+        
+            margin-left: 20%;
+            margin-right: 20%;
             border-radius: 10px;
-            
+            font-size: 28px;
         }
         url{
             width: 700px;
@@ -39,37 +46,47 @@ ul li a{
     padding: 5px;
     
 }
-.box{
-    background-image: url(trade.jpg);
+.box{   background-color: rgba(0, 0,0, 0.5);
+        display: flex;
+        justify-content: space-between;
+        border-radius: 20px;
+        padding: 15px;
+      a{padding: 30px;
+        color: white;
+      }
+      
+}
+.about{
+    background-image:url(bk1.jpg) ;
     background-repeat: no-repeat;
     background-size: cover;
-        padding: 30px;
-        padding-left: 10%;
-        margin-left: 100px;
-        margin-right: 100px;
-        height: 50px;
-        border-radius: 15px;
-        }
-.about{
-    background-color: rgb(135, 77, 36);
+    
     h1{   
-         background-image: url(olai2.jpg);
-          background-repeat: no-repeat;
-           background-size: cover;
-            padding: 30px;
+         
+            padding-top: 20px;
             margin-left: 45%;
             display: inline-block;
             border-radius: 20px;
+            font-size: 60px;
 
 
     }
     p{
-        background-image: url(olai.jpg);
-            background-repeat: no-repeat;
-            padding: 100px;
-            margin-left: 25%;
+        
+        
+            margin-left: 20%;
             border-radius: 10px;
-            
+            font-size: 28px;
+    }
+    h2{
+        background-color: rgba(201, 169, 137, 0.5);
+        display: flex;
+        justify-content: space-between;
+        border-radius: 20px;
+        padding: 15px;
+      a{padding: 30px;
+        color: black;
+      }
     }
     
 }
@@ -78,112 +95,187 @@ ul li a{
      h2{
         display: flex;
         justify-content: space-between;
+        background-color: rgba(194, 158, 122, 0.5);
+        display: flex;
+        justify-content: space-between;
+        border-radius: 20px;
+        padding: 15px;
+      a{padding: 30px;
+        color: black;
+      }
      } 
      .tab{
         display: inline-block;
-        width: 10%;
+        width: 21%;
         padding: 20px;
         text-align: center;
         margin: 5px;
+        
      }
      img{
-        width: 200px;
-        height: 200px;
+        margin-left:1% ;
+        width: 350px;
+        height: 350px;
+        border-radius: 20px;
+    
      }
-     h1{
+     img:hover{
+        transform: scale(0.9);
+
+     }
+     h1{font-size: 60px;
         margin-left: 45%;
      }
 
 }
 .Login{
-      background-color: rgb(92, 44, 9);
+      background-image: url(bk2.jpg);
+      background-repeat: no-repeat;
+background-size: cover;
 
     table{
-        background-image: url(olai3.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        padding: 150px;
-        padding-left: 200px;
-        text-align:center ;
-         justify-content: center;
-        align-items: center;
+        width: 100px;
+        height: 100px;
         margin-left: 30%;
-        margin-top: 5%;
+        border-radius: 20px;
+        font-size: 28px;
+        th{ width: 100px;
+            margin-right: 10%;
+        }
+        textarea{
+            margin-left: 21%;
+            width: 300px;
+        }}
+        h2{
+        background-color: rgba(136, 144, 177, 0.5);
+        display: flex;
+        justify-content: space-between;
+        border-radius: 20px;
+        padding: 15px;
+      a{padding: 30px;
+        color:black;
+      }
+    
     }
-       h1{
-background-image: url(olai2.jpg);
-            background-repeat: no-repeat;
-            background-size: cover;
+       h1{font-size: 60px;
             padding: 30px;
             margin-left: 45%;
             display: inline-block;
             border-radius: 10px;
-        text-align: center;
+            
+        
        } 
 
         
     
 }
 .Hotel{
-    background-color: blanchedalmond;
-   table{
+    background-image: url(bk28.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: auto;
     
+    
+   table{
         margin-left: 20%;
         border-radius: 10px;
         text-align: center;
         border: 0;
         td{
-        
+            background-color:rgba(173, 216, 230, 0.653);
+        color: black;
          margin-left: 20%;
-        border: solid;
+        border: 0;
         border-radius: 10px;
         text-align: center;
          width: 50px;
         height: 50px;
         font-size: 28px;
+        text-decoration: dotted;
+        box-shadow: 0 4px 6px rgba(0, 0,0, 0.3);
        
-        }
-        a{
+    }
+        a{  
             color: black;
             text-decoration: none;
-        }
-        
- }
- 
-
- }
-
-.Educcational{
-    img{
-        width: 500px;
-        height: 500px;
-    }
-}
-.Safety{background-color: rgb(129, 85, 54);
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-        h1{
-            background-image: url(olai2.jpg);
-            background-repeat: no-repeat;
-            background-size: cover;
+        }}
+        h1{font-size: 60px;
             padding: 30px;
             margin-left: 45%;
             display: inline-block;
             border-radius: 10px;
 
         }
-        p{
-            background-image: url(olai.jpg);
-            background-repeat:no-repeat;
-            padding: 100px;
-            margin-left: 25%;
         
+ 
+ 
 
+ }
+
+.Educational{
+    background-color: rgba(255, 228, 196, 0.762);
+    h1{font-size: 50px;
+            text-align: center;
+            border-radius: 10px;
+    }
+     h2{
+        background-color: rgba(221, 202, 132, 0.5);
+        display: flex;
+        justify-content: space-between;
+        border-radius: 20px;
+        padding: 15px;
+      a{padding: 30px;
+        color:black;
+      }
+    
+    }
+    .E{width: 305px;
+        display: inline-block;
+        padding: 20px;
+        margin: 5px;
+        text-align: center;
+    border-radius: 20px;}
+        
+    img:hover{
+            transform: scale(0.9);
+        }
+        img{ margin-left: 1%;
+            border-radius: 20px;
+        }
+        }
+.Safety{
+    background-image: url(bk24.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+        h1{
+            
+            padding: 30px;
+            margin-left: 45%;
+            display: inline-block;
+            border-radius: 10px;
+            font-size: 60px;
+        }
+        p{
+        
+            
+            margin-left: 25%;
+        border-radius: 10px;
+font-size: 30px;
 
         }
-    border-radius: 10px;
-          
+
+          h2{
+        background-color: rgba(215, 213, 206, 0.5);
+        display: flex;
+        justify-content: space-between;
+        border-radius: 20px;
+        padding: 15px;
+      a{padding: 30px;
+        color:black;
+      }
+    
+    }
         
         url{
             width: 700px;
