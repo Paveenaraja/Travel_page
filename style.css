@@ -15,16 +15,15 @@
     }
 
         h1{
-            
-            
+            font-style: oblique;
+            text-shadow: 7px 7px 5px rgba(89, 87, 87, 0.852);
             margin-left: 45%;
             display: inline-block;
             border-radius: 10px;
             font-size: 60px;
         }
         p{
-        
-        
+            font-style: italic;
             margin-left: 20%;
             margin-right: 20%;
             border-radius: 10px;
@@ -133,25 +132,33 @@ ul li a{
 
 }
 .Login{
-      background-image: url(bk2.jpg);
-      background-repeat: no-repeat;
-background-size: cover;
-
-    table{
-        width: 100px;
-        height: 100px;
-        margin-left: 30%;
-        border-radius: 20px;
-        font-size: 28px;
-        th{ width: 100px;
-            margin-right: 10%;
+      background-color: rgba(195, 173, 147, 0.83);
+    .booking{ margin-left: 40%; 
+           margin-bottom: 15px;
+          font-weight: 500;
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 28px;}
+           lable{ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            display: block;
+            margin-bottom: 5px;
+            
+           }
+        input{ 
+            
+             width: 30%;
+            justify-content: center;
+            display: flex;
+            padding: 10px;
+            border-radius: 6px;
+            box-sizing: border-box;
         }
         textarea{
-            margin-left: 21%;
-            width: 300px;
-        }}
+           border-radius: 6px;
+            width: 50%;
+            
+        }
         h2{
-        background-color: rgba(136, 144, 177, 0.5);
+        background-color:rgba(194, 158, 122, 0.5);
         display: flex;
         justify-content: space-between;
         border-radius: 20px;
@@ -163,7 +170,7 @@ background-size: cover;
     }
        h1{font-size: 60px;
             padding: 30px;
-            margin-left: 45%;
+            margin-left: 40%;
             display: inline-block;
             border-radius: 10px;
             
